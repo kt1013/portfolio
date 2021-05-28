@@ -96,6 +96,7 @@ li {
 
 .header-banner {
   width: 50px;
+  border-radius:50%
 }
 .header-nav-list {
   display: flex;
@@ -190,25 +191,25 @@ li {
   text-align: center;
 }
 
-.contact-item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .contact-icon {
   width: 50px;
 }
 .contact-body{
 	flex:1;
+	text-align:center;
 }
 .contact-text{
 	text-align:center;
 }
 .contact-img {
-  width: 20%;
-  margin-right: 30px;
-  margin-left: 600px;
-  border-radius: 50%;
-
+  width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.contact-img img{
+	border-radius:50%;
+	max-width:5%;
+	margin:10px
 }
 
 
@@ -325,9 +326,8 @@ li {
 .contact-text{
 	text-align:center;
 }
- .contact-img {
-    width: 150px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-  }
+.contact-img img{
+	border-radius:50%;
+	max-width:10%;
+}
 }
