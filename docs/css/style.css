@@ -197,6 +197,20 @@ li {
 .contact-icon {
   width: 50px;
 }
+.contact-body{
+	flex:1;
+}
+.contact-text{
+	text-align:center;
+}
+.contact-img {
+  width: 20%;
+  margin-right: 30px;
+  margin-left: 600px;
+  border-radius: 50%;
+
+}
+
 
 /*--- page-top ---*/
 .page-top {
@@ -308,5 +322,12 @@ li {
   .footer {
     padding: 20px;
   }
-
+.contact-text{
+	text-align:center;
+}
+ .contact-img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
 }
